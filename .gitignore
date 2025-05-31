@@ -1,0 +1,14 @@
+# Ignore Python byte-compiled files and folders (created automatically, not source code)
+__pycache__/
+*.pyc
+
+# Ignore trained model files and logs (large files, not source code)
+rf_model.pkl           # Random Forest model, usually re-generated as needed
+model_accuracy_log.csv # Accuracy log file, can be recreated
+
+# Ignore OS-generated files (not part of your project)
+.DS_Store              # macOS folder metadata
+Thumbs.db              # Windows folder thumbnail cache
+
+# Ignore Jupyter notebook checkpoint files (auto-backups, not your main work)
+.ipynb_checkpoints/
